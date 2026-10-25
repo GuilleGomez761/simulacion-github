@@ -89,7 +89,7 @@
 
                     foreach ($datos["opciones"] as $opcion) {
                         echo '<label>';
-                        echo '<input type="radio" name="pregunta' . $indice . '" value="' . $opcion . '">';
+                        echo '<input type="radio" name="pregunta' . $indice . '" value="' . $opcion . '" required>';
                         echo ' ' . $opcion;
                         echo '</label>';
                     }
